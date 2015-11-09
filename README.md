@@ -1,5 +1,7 @@
 # less-autocompile package
 
+_This fork is a patched version to permit [JavaScript expression evaluation](https://github.com/less/less.js/blob/master/lib/less/tree/js-eval-node.js) inside LESS source. It's using a [patched version](https://github.com/mediaxtend/less.js) of Less.js compiler and the [Eval Loophole](https://github.com/cgrabowski/loophole) hack._
+
 Auto compile LESS file on save.
 
 ---

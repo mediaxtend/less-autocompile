@@ -2,7 +2,7 @@
   "name": "less-autocompile",
   "main": "./lib/less-autocompile",
   "version": "1.0.0",
-  "description": "Auto compile LESS",
+  "description": "Auto compile LESS (patched to permit JS expression evaluation)",
   "repository": "https://github.com/lohek/less-autocompile",
   "license": "MIT",
   "engines": {
@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "async": "^0.9.0",
-    "less": "^2.3.1",
-    "mkdirp": "^0.5.0"
+    "less": "https://github.com/mediaxtend/less.js/tarball/master",
+    "mkdirp": "^0.5.0",
+    "loophole": "^1.1.0"
   }
 }
